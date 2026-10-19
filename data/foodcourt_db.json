@@ -1,0 +1,396 @@
+{
+  "settings": {
+    "stallName": "TASTY FOOD COURT",
+    "tagline": "Since 2024 — Quality You Can Taste",
+    "exhibitionName": "Navy Children's School Porbandar Exhibition 2026",
+    "year": 2026,
+    "upiId": "7016321005@fam",
+    "merchantName": "TASTY FOOD COURT",
+    "isOrderingActive": true,
+    "isCashAllowed": true,
+    "stallExpenses": 1200,
+    "announcement": "Welcome to Stall #4! Order via QR code or counter pickup."
+  },
+  "menu": [
+    {
+      "id": "shake-oreo",
+      "name": "Oreo Dream Shake",
+      "category": "Shakes & Coffee",
+      "price": 100,
+      "costPrice": 45,
+      "description": "Thick creamy vanilla ice-cream shake blended with crushed Oreos, topped with whipped cream, chocolate drizzle and an Oreo biscuit.",
+      "isSignature": true,
+      "isSoldOut": false,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80",
+      "iconType": "shake",
+      "dietary": "veg"
+    },
+    {
+      "id": "coffee-midnight-mocha",
+      "name": "Midnight Mocha Coffee",
+      "category": "Shakes & Coffee",
+      "price": 110,
+      "costPrice": 48,
+      "description": "Rich dark espresso blend infused with velvety dark chocolate mocha, chilled milk, and a dusting of Dutch cocoa.",
+      "isSignature": false,
+      "isSoldOut": false,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80",
+      "iconType": "coffee",
+      "dietary": "veg"
+    },
+    {
+      "id": "pizza-cheese-volcano",
+      "name": "Cheese Volcano Pizza",
+      "category": "Pizzas",
+      "price": 150,
+      "costPrice": 65,
+      "description": "Bursting cheese pull crust loaded with pure bubbling mozzarella, cheddar molten pool, and aromatic Italian herbs.",
+      "isSignature": false,
+      "isSoldOut": false,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+      "iconType": "pizza",
+      "dietary": "veg"
+    },
+    {
+      "id": "pizza-veggie-blast",
+      "name": "Veggie Blast Pizza",
+      "category": "Pizzas",
+      "price": 180,
+      "costPrice": 75,
+      "description": "Crisp artisanal crust loaded with colorful bell peppers, sweetcorn, black olives, red onions, and baked mozzarella.",
+      "isSignature": true,
+      "isSoldOut": false,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+      "iconType": "pizza",
+      "dietary": "veg"
+    },
+    {
+      "id": "snack-golden-puff",
+      "name": "Golden Crunch Puff",
+      "category": "Snacks",
+      "price": 30,
+      "costPrice": 12,
+      "description": "Hot flaky golden-layered puff pastry packed with savoury mildly-spiced potato, sweet corn, and vegetable filling.",
+      "isSignature": false,
+      "isSoldOut": false,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+      "iconType": "puff",
+      "dietary": "veg"
+    },
+    {
+      "id": "snack-spicy-bhel",
+      "name": "Surat Spicy Bhel",
+      "category": "Snacks",
+      "price": 60,
+      "costPrice": 22,
+      "description": "Authentic crunchy puffed rice tossed with fiery garlic chutney, sweet dates sauce, crispy papdi, nylon sev, and peanuts.",
+      "isSignature": false,
+      "isSoldOut": false,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=800&q=80",
+      "iconType": "bhel",
+      "dietary": "veg"
+    },
+    {
+      "id": "bev-masala-chaas",
+      "name": "Royal Masala Chaas",
+      "category": "Beverages",
+      "price": 20,
+      "costPrice": 8,
+      "description": "Traditional cooling spiced buttermilk tempered with roasted cumin, rock salt, fresh mint sprig, and green coriander.",
+      "isSignature": false,
+      "isSoldOut": false,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=800&q=80",
+      "iconType": "chaas",
+      "dietary": "veg"
+    },
+    {
+      "id": "bev-cold-coco",
+      "name": "Special Cold Coco",
+      "category": "Beverages",
+      "price": 80,
+      "costPrice": 32,
+      "description": "Rich, velvety thick chilled chocolate drink loaded with dark cocoa and topped with crunchy chocolate shavings.",
+      "isSignature": true,
+      "isSoldOut": false,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?auto=format&fit=crop&w=800&q=80",
+      "iconType": "coco",
+      "dietary": "veg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "TFC-2609",
+      "orderNumber": 2609,
+      "customerName": "Nirmay Mandaviya",
+      "tableOrToken": "Stall Counter",
+      "items": [
+        {
+          "menuItemId": "shake-oreo",
+          "name": "Oreo Dream Shake",
+          "quantity": 1,
+          "unitPrice": 100,
+          "subtotal": 100
+        }
+      ],
+      "totalAmount": 100,
+      "totalCost": 45,
+      "paymentMethod": "upi",
+      "paymentStatus": "pending",
+      "status": "received",
+      "createdAt": "2026-10-18T14:45:05.038Z",
+      "updatedAt": "2026-10-18T14:45:05.038Z"
+    },
+    {
+      "id": "TFC-2608",
+      "orderNumber": 2608,
+      "customerName": "Nirmay Mandaviya",
+      "tableOrToken": "Stall Counter",
+      "items": [
+        {
+          "menuItemId": "shake-oreo",
+          "name": "Oreo Dream Shake",
+          "quantity": 1,
+          "unitPrice": 100,
+          "subtotal": 100
+        },
+        {
+          "menuItemId": "pizza-veggie-blast",
+          "name": "Veggie Blast Pizza",
+          "quantity": 1,
+          "unitPrice": 180,
+          "subtotal": 180
+        }
+      ],
+      "totalAmount": 280,
+      "totalCost": 120,
+      "paymentMethod": "upi",
+      "paymentStatus": "successful",
+      "status": "ready",
+      "createdAt": "2026-10-18T13:47:00.647Z",
+      "updatedAt": "2026-10-18T13:48:46.862Z",
+      "paymentSubmittedAt": "2026-10-18T13:47:28.043Z",
+      "verifiedByAdmin": true,
+      "paymentTxnId": "FAMX-VERIFIED-MVDVSCX4"
+    },
+    {
+      "id": "TFC-2607",
+      "orderNumber": 2607,
+      "customerName": "Kavita Dave",
+      "tableOrToken": "Table 6",
+      "items": [
+        {
+          "menuItemId": "shake-oreo",
+          "name": "Oreo Dream Shake",
+          "quantity": 1,
+          "unitPrice": 100,
+          "subtotal": 100
+        },
+        {
+          "menuItemId": "snack-crunch-nachos",
+          "name": "Crunch Riot Nachos",
+          "quantity": 1,
+          "unitPrice": 90,
+          "subtotal": 90
+        }
+      ],
+      "totalAmount": 190,
+      "totalCost": 83,
+      "paymentMethod": "upi",
+      "paymentStatus": "successful",
+      "status": "cancelled",
+      "createdAt": "2026-10-18T13:45:50.479Z",
+      "updatedAt": "2026-10-18T13:48:51.709Z",
+      "customerUtr": "FAMX98273461",
+      "paymentSubmittedAt": "2026-10-18T13:45:53.951Z",
+      "verifiedByAdmin": true,
+      "paymentTxnId": "FAMX-VERIFIED-MVDVPMDI",
+      "cancellationReason": "Out of stock / ingredient finished"
+    },
+    {
+      "id": "TFC-2606",
+      "orderNumber": 2606,
+      "customerName": "Nirmay Mandaviya",
+      "tableOrToken": "Stall Counter",
+      "items": [
+        {
+          "menuItemId": "shake-oreo",
+          "name": "Oreo Dream Shake",
+          "quantity": 1,
+          "unitPrice": 100,
+          "subtotal": 100
+        },
+        {
+          "menuItemId": "pizza-veggie-blast",
+          "name": "Veggie Blast Pizza",
+          "quantity": 1,
+          "unitPrice": 180,
+          "subtotal": 180
+        }
+      ],
+      "totalAmount": 280,
+      "totalCost": 120,
+      "paymentMethod": "upi",
+      "paymentStatus": "successful",
+      "status": "cancelled",
+      "createdAt": "2026-10-18T13:39:31.610Z",
+      "updatedAt": "2026-10-18T13:48:53.902Z",
+      "paymentTxnId": "pay_famx_MVDVH7UN",
+      "cancellationReason": "Out of stock / ingredient finished"
+    },
+    {
+      "id": "TFC-2605",
+      "orderNumber": 2605,
+      "customerName": "Nirmay Mandaviya",
+      "tableOrToken": "Stall Counter",
+      "items": [
+        {
+          "menuItemId": "shake-oreo",
+          "name": "Oreo Dream Shake",
+          "quantity": 1,
+          "unitPrice": 100,
+          "subtotal": 100
+        }
+      ],
+      "totalAmount": 100,
+      "totalCost": 45,
+      "paymentMethod": "upi",
+      "paymentStatus": "successful",
+      "status": "received",
+      "createdAt": "2026-10-18T13:30:58.115Z",
+      "updatedAt": "2026-10-18T13:48:36.309Z",
+      "verifiedByAdmin": true,
+      "paymentTxnId": "FAMX-VERIFIED-MVDVSEOL"
+    },
+    {
+      "id": "TFC-2604",
+      "orderNumber": 2604,
+      "customerName": "Nirmay Mandaviya",
+      "tableOrToken": "5",
+      "items": [
+        {
+          "menuItemId": "shake-oreo",
+          "name": "Oreo Dream Shake",
+          "quantity": 1,
+          "unitPrice": 100,
+          "subtotal": 100
+        },
+        {
+          "menuItemId": "pizza-veggie-blast",
+          "name": "Veggie Blast Pizza",
+          "quantity": 1,
+          "unitPrice": 180,
+          "subtotal": 180
+        }
+      ],
+      "totalAmount": 280,
+      "totalCost": 120,
+      "paymentMethod": "cash",
+      "paymentStatus": "pending",
+      "status": "received",
+      "createdAt": "2026-10-18T12:36:03.846Z",
+      "updatedAt": "2026-10-18T12:36:03.846Z"
+    },
+    {
+      "id": "TFC-2603",
+      "orderNumber": 2603,
+      "customerName": "Rohit Verma",
+      "tableOrToken": "Table 5",
+      "items": [
+        {
+          "menuItemId": "shake-oreo",
+          "name": "Oreo Dream Shake",
+          "quantity": 1,
+          "unitPrice": 100,
+          "subtotal": 100
+        },
+        {
+          "menuItemId": "pizza-veggie-blast",
+          "name": "Veggie Blast Pizza",
+          "quantity": 1,
+          "unitPrice": 180,
+          "subtotal": 180
+        }
+      ],
+      "totalAmount": 280,
+      "totalCost": 120,
+      "paymentMethod": "upi",
+      "paymentStatus": "successful",
+      "status": "preparing",
+      "createdAt": "2026-10-18T12:33:38.314Z",
+      "updatedAt": "2026-10-18T12:34:06.407Z",
+      "paymentTxnId": "pay_rzp_test_NCS2026_01"
+    },
+    {
+      "id": "TFC-2601",
+      "orderNumber": 2601,
+      "customerName": "Aarav Sharma",
+      "tableOrToken": "Table 3",
+      "customerPhone": "9876543210",
+      "notes": "Please make the shake extra chilled!",
+      "items": [
+        {
+          "menuItemId": "shake-oreo",
+          "name": "Oreo Dream Shake",
+          "quantity": 1,
+          "unitPrice": 100,
+          "subtotal": 100
+        },
+        {
+          "menuItemId": "snack-crunch-nachos",
+          "name": "Crunch Riot Nachos",
+          "quantity": 1,
+          "unitPrice": 90,
+          "subtotal": 90
+        }
+      ],
+      "totalAmount": 190,
+      "totalCost": 83,
+      "paymentMethod": "upi",
+      "paymentStatus": "successful",
+      "paymentTxnId": "UPI-NCS-98124",
+      "status": "preparing",
+      "createdAt": "2026-10-18T12:25:08.916Z",
+      "updatedAt": "2026-10-18T12:28:08.916Z"
+    },
+    {
+      "id": "TFC-2602",
+      "orderNumber": 2602,
+      "customerName": "Pooja Patel",
+      "tableOrToken": "Stall Counter",
+      "customerPhone": "9822334455",
+      "items": [
+        {
+          "menuItemId": "pizza-veggie-blast",
+          "name": "Veggie Blast Pizza",
+          "quantity": 1,
+          "unitPrice": 180,
+          "subtotal": 180
+        },
+        {
+          "menuItemId": "bev-masala-chaas",
+          "name": "Royal Masala Chaas",
+          "quantity": 2,
+          "unitPrice": 20,
+          "subtotal": 40
+        }
+      ],
+      "totalAmount": 220,
+      "totalCost": 91,
+      "paymentMethod": "cash",
+      "paymentStatus": "successful",
+      "status": "ready",
+      "createdAt": "2026-10-18T12:19:08.916Z",
+      "updatedAt": "2026-10-18T12:31:08.917Z"
+    }
+  ],
+  "nextOrderSeq": 2610,
+  "adminPassword": "Nirmay2894"
+}

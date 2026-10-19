@@ -1,0 +1,6 @@
+{
+  "name": "TASTY FOOD COURT - QR Ordering & Kitchen System",
+  "description": "Official QR code ordering and real-time kitchen display system for TASTY FOOD COURT at Navy Children's School Porbandar Exhibition 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
